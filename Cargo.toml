@@ -14,3 +14,7 @@ opt-level = 3
 # Uncomment to profile on Linux:
 # debug = true
 # lto = false
+
+[replace."ipc-channel:0.6.2"]
+git = "https://github.com/antrik/ipc-channel"
+rev = "fix-recv_large-econnreset"
