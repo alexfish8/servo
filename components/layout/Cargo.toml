@@ -21,7 +21,7 @@ gfx = {path = "../gfx"}
 gfx_traits = {path = "../gfx_traits"}
 heapsize = "0.3.0"
 html5ever-atoms = "0.1"
-ipc-channel = "0.5"
+ipc-channel = "0.6.2"
 libc = "0.2"
 log = "0.3.5"
 msg = {path = "../msg"}
@@ -48,6 +48,7 @@ unicode-bidi = "0.2"
 unicode-script = {version = "0.1", features = ["harfbuzz"]}
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]

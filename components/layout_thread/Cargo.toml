@@ -16,7 +16,7 @@ fnv = "1.0"
 gfx = {path = "../gfx"}
 gfx_traits = {path = "../gfx_traits"}
 heapsize = "0.3.0"
-ipc-channel = "0.5"
+ipc-channel = "0.6.2"
 layout = {path = "../layout"}
 layout_traits = {path = "../layout_traits"}
 lazy_static = "0.2"
@@ -39,6 +39,7 @@ servo_url = {path = "../url"}
 style = {path = "../style"}
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]
